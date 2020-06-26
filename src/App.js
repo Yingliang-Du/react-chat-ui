@@ -1,9 +1,10 @@
 import React from 'react';
+import ReduxDemo from './components/ReduxDemo'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <ReduxDemo />
     </div>
   );
 }
