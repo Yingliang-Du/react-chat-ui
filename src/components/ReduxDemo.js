@@ -11,7 +11,7 @@ const ReduxDemo = () => {
     return (
         <div>
             <h1>Counter: {counter}</h1>
-            <button onClick={() => dispatch(increment())}>+</button>
+            <button onClick={() => dispatch(increment(3))}>+</button>
             <button onClick={() => dispatch(decrement())}>-</button>
 
             {flag ? <h3>Flag was ON!</h3> : <h3>Flag was OFF!</h3>}
